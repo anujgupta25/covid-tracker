@@ -7,16 +7,18 @@ const Covid = ()=> {
     const api = async () => {
         const data = await fetch('https://api.covid19india.org/data.json');
         const res = await data.json();
-        console.log(res.statewise[20]);
         setCovidData(res.statewise[20]);
     }
 
     useEffect(()=>{
+        const name = prompt("What's your name ?");
+        alert(`Welcome ${name} ! This is Anuj.`);
         api();
     },[])
     return (
             <div className='container pt-3'>
-                <h3 className='text-center'><span className='text-danger'>Live</span> <span className='text-warning'>Covid-19 Tracker</span>  </h3>    
+                <h3 className='text-center'><span className='live'>Live</span> <span className='text-dark'>Covid-19 Tracker</span></h3> 
+                   
                 <div className='row d-flex justify-content-betwen mx-2 mt-5'>
                 <div className='col-md-3 m-md-4 mt-4 card card4'>
                     <p>State</p>

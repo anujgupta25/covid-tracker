@@ -5,6 +5,13 @@ background-size: cover;
 height:100vh;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.live{
+  width:60px;
+  background:red;
+  color:#fff;
+  padding:6px 10px;
+  border-radius:15px;
+}
 .card{
   border:none;
   border-radius: 10px;
@@ -12,6 +19,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   padding:20px;
 }
 .card p{
+  width:180px;
+  margin:0 auto;
   font-weight:bold;
   color:#fff;
   font-size:18px;
@@ -20,12 +29,12 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 .card span{
   text-align:center;
   font-size: 23px;
+  margin-top: 20px;
 }
 .card1 p{
   background:#feca57;
   border-radius: 15px;
   padding:5px;
-  width:100%;
 }
 .card2 p{
   background:#ff7979;
@@ -56,11 +65,8 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 background: #2C3A47;
 border-radius: 15px;
 padding:5px;
-width:180px;
-margin:0 auto;
 text-align: center;
 }
 .card7 span{
   font-size: 20px;
-  margin-top: 20px;
 }
