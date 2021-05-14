@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body{
+background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  border:none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 1px #ddd;
+  padding:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card p{
+  font-weight:bold;
+  color:#fff;
+  font-size:18px;
+  text-align:center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card span{
+  text-align:center;
+  font-size: 23px;
 }
-
-.App-link {
-  color: #61dafb;
+.card1 p{
+  background:#feca57;
+  border-radius: 15px;
+  padding:5px;
+  width:100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card2 p{
+  background:#ff7979;
+  border-radius: 15px;
+  padding:5px;
+}
+.card3 p{
+  background:#B33771;
+  border-radius: 15px;
+  padding:5px;
+}
+.card4 p{
+  background:#be2edd;
+  border-radius: 15px;
+  padding:5px;
+}
+.card5 p{
+  background:#32ff7e;
+  border-radius: 15px;
+  padding:5px;
+}
+.card6 p{
+  background:#FC427B;
+  border-radius: 15px;
+  padding:5px;
+}
+.card7 p{
+background: #2C3A47;
+border-radius: 15px;
+padding:5px;
+width:180px;
+margin:0 auto;
+text-align: center;
+}
+.card7 span{
+  font-size: 20px;
+  margin-top: 20px;
 }
