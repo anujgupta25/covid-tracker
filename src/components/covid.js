@@ -9,10 +9,17 @@ const Covid = ()=> {
         const res = await data.json();
         setCovidData(res.statewise[20]);
     }
+    const checkName = ()=>{
+        const name = prompt(`Whats your name ?`);
 
+        if(name==""){
+            alert(`Welcome User ! This is Anuj.`);
+        }else{
+            alert(`Welcome ${name} ! This is Anuj.`);
+        }   
+    }
     useEffect(()=>{
-        const name = prompt("What's your name ?");
-        alert(`Welcome ${name} ! This is Anuj.`);
+        checkName();
         api();
     },[])
     return (
