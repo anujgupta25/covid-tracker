@@ -12,7 +12,7 @@ const Covid = ()=> {
     const checkName = ()=>{
         const name = prompt(`Whats your name ?`);
 
-        if(name==""){
+        if(name=="" || name == null){
             alert(`Welcome User ! This is Anuj.`);
         }else{
             alert(`Welcome ${name} ! This is Anuj.`);
@@ -21,7 +21,7 @@ const Covid = ()=> {
     useEffect(()=>{
         checkName();
         api();
-    },[])
+    },[]);
     return (
             <div className='container pt-3'>
                 <h3 className='text-center'><span className='live'>Live</span> <span className='text-dark'>Covid-19 Tracker</span></h3> 
